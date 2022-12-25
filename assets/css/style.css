@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(43, 63, 20);
+}
+
+.title{
+    text-align: center;
+    color: #9bd1bc;
+    margin-top: 16%;
+}
+
+
+
+.container{
+    width:30%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #212124;
+    margin:auto;
+}
+.display-wrapper{
+    width: 98%;
+
+}
+.display{
+    width:100%
+}
+.btns-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.cal-btn{
+    border:none;
+    margin:1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+.equal-btn-wrapper{
+    width: 100%;
+}
+.equal-btn-wrapper .cal-btn{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    .title{
+        font-size: unset;
+        margin-top: 60%;
+    }
+}
